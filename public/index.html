@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roof Insulation | Free Quote</title>
+<meta name="description" content="Free roof study and insulation by experienced roofers. Request your free, no-obligation quote.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<svg class="sprite" width="0" height="0" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" fill="none" stroke="#F2A33A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 16 16 5l13 11"/><path d="M7 14v13h18V14"/></svg>
+      <span>[YOUR BRAND]</span>
+    </div>
+    <div class="header-actions">
+      <a class="phone" href="tel:+0000000000">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+        [YOUR PHONE]
+      </a>
+      <a class="btn btn--outline" href="#form">Free quote</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero on-ink">
+  <div class="container">
+    <div class="hero-copy">
+      <p class="eyebrow">Roof insulation</p>
+      <h1>A comfortable home starts with a well-insulated roof.</h1>
+      <p class="hero-lead">We study your roof for free, then handle the whole job: insulation, roofing and finishing, by one team that knows the house inside out.</p>
+      <div class="offer-badge">
+        <strong>[−20%]</strong>
+        <span>off your roof insulation<br>[OFFER DEADLINE]</span>
+      </div>
+      <ul class="checks">
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>[XX] years in business</span></li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Roofers with [XX]+ years of hands-on experience</span></li>
+        <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Insulation fitted at the same time as the roof work</span></li>
+      </ul>
+    </div>
+
+    <div class="form-card" id="form">
+      <p class="form-kicker">Your project starts here</p>
+      <h2 class="form-title">Get your free quote</h2>
+      <form class="quote-form" action="/api/quote" method="post" novalidate>
+        <div class="row">
+          <div class="field"><label for="a-first">First name *</label><input id="a-first" name="firstName" type="text" required autocomplete="given-name"></div>
+          <div class="field"><label for="a-last">Last name *</label><input id="a-last" name="lastName" type="text" required autocomplete="family-name"></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="a-phone">Phone *</label><input id="a-phone" name="phone" type="tel" required autocomplete="tel"></div>
+          <div class="field"><label for="a-zip">Postcode *</label><input id="a-zip" name="postcode" type="text" required autocomplete="postal-code"></div>
+        </div>
+        <div class="field"><label for="a-mail">Email *</label><input id="a-mail" name="email" type="email" required autocomplete="email"></div>
+        <div class="field"><label for="a-msg">Briefly describe your insulation project *</label><textarea id="a-msg" name="message" rows="3" required></textarea></div>
+        <div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <button class="btn btn--accent" type="submit">Get my free quote <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <p class="form-status" role="status" aria-live="polite" hidden></p>
+        <p class="form-note">Simple request · No obligation</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="trust" aria-label="Why trust us">
+  <div class="container">
+    <p>Since [YEAR FOUNDED]</p>
+    <p>[XX]+ years of roofing experience</p>
+    <p>Roof insulation specialists</p>
+    <p>[−20%] on your insulation</p>
+  </div>
+</section>
+
+<section class="section container">
+  <p class="eyebrow">The result that counts</p>
+  <h2 class="h2">Keep the heat in. Keep the comfort up.</h2>
+  <div class="cards">
+    <article class="card"><span class="num">01</span><h3>Less heat lost through the roof</h3><p>Warm air rises, and an uninsulated roof lets it leave. Proper insulation keeps it where you live and cuts the load on your heating.</p></article>
+    <article class="card"><span class="num">02</span><h3>A steadier, more comfortable home</h3><p>Fewer cold spots in winter and less heat building up under the tiles in summer, in the rooms you use every day.</p></article>
+    <article class="card"><span class="num">03</span><h3>A plan built around your house</h3><p>No catalogue package. We look at your roof first, then propose the insulation and works that fit its structure and your budget.</p></article>
+  </div>
+  <div class="cta-row"><a class="btn btn--dark" href="#form">Get my free quote <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+</section>
+
+<section class="gallery-section">
+  <div class="section container">
+    <p class="eyebrow">Proof from the job site</p>
+    <h2 class="h2">Insulation you can see before it disappears behind the plasterboard.</h2>
+    <!-- To use a real photo, add: style="background-image:url('/images/your-photo.jpg')" and class "has-image" to the figure. -->
+    <div class="gallery">
+      <figure class="shot"><figcaption>[PHOTO: attic before insulation]</figcaption></figure>
+      <figure class="shot"><figcaption>[PHOTO: insulation being laid]</figcaption></figure>
+      <figure class="shot"><figcaption>[PHOTO: finished attic]</figcaption></figure>
+      <figure class="shot"><figcaption>[PHOTO: roof and insulation together]</figcaption></figure>
+      <figure class="shot"><figcaption>[PHOTO: your team on site]</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <p class="eyebrow">How it works</p>
+  <h2 class="h2">From first message to a clear proposal, in four steps.</h2>
+  <ol class="steps">
+    <li class="step"><span class="label">Step 1</span><h3>Describe your project</h3><p>Fill in the short form. It takes two minutes.</p></li>
+    <li class="step"><span class="label">Step 2</span><h3>We talk about your needs</h3><p>A callback within [48 HOURS] to understand what you want from your roof.</p></li>
+    <li class="step"><span class="label">Step 3</span><h3>We inspect the roof</h3><p>A roofer checks the structure and condition on site, free of charge.</p></li>
+    <li class="step"><span class="label">Step 4</span><h3>You get a clear proposal</h3><p>Scope, materials and price in plain language. You decide, with no pressure.</p></li>
+  </ol>
+</section>
+
+<section class="reviews">
+  <div class="section container">
+    <p class="eyebrow">Reviews</p>
+    <h2 class="h2">Homeowners who trusted us with their roof.</h2>
+    <div class="cards">
+      <figure class="review"><blockquote>“[PASTE A REAL CUSTOMER REVIEW HERE, ideally a verified Google review.]”</blockquote><figcaption>[FIRST NAME, TOWN] · [DATE]</figcaption></figure>
+      <figure class="review"><blockquote>“[PASTE A REAL CUSTOMER REVIEW HERE, ideally one that mentions comfort or energy bills.]”</blockquote><figcaption>[FIRST NAME, TOWN] · [DATE]</figcaption></figure>
+      <figure class="review"><blockquote>“[PASTE A REAL CUSTOMER REVIEW HERE, ideally one that mentions the team or the quote.]”</blockquote><figcaption>[FIRST NAME, TOWN] · [DATE]</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="offer-band">
+  <div class="container">
+    <div class="copy">
+      <h2>Take [−20%] off your roof insulation.</h2>
+      <p>Offer valid until [OFFER DEADLINE]. You stay free to decide once you have the quote.</p>
+    </div>
+    <a class="btn btn--dark" href="#form2">Get my free quote <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+
+<section class="contact on-ink">
+  <div class="container">
+    <div class="contact-copy">
+      <h2 class="h2">Let’s talk about your roof insulation.</h2>
+      <p>Tell us about your house. We come back to you with a clear, honest answer.</p>
+      <ul class="promises">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div><strong>Callback within [48 HOURS]</strong><span>A real person calls you back, not an automated message.</span></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10l8-6 8 6v10z"/><path d="M9 20v-6h6v6"/></svg>
+          <div><strong>A study built for your home</strong><span>Your roof, your structure, your budget.</span></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.2 8 8 9 4.8-1 8-4.5 8-9V6z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg>
+          <div><strong>No obligation</strong><span>You are free to say no after reading the proposal.</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="form-card" id="form2">
+      <p class="form-kicker">Your project starts here</p>
+      <h2 class="form-title">Get your free quote</h2>
+      <form class="quote-form" action="/api/quote" method="post" novalidate>
+        <div class="row">
+          <div class="field"><label for="b-first">First name *</label><input id="b-first" name="firstName" type="text" required autocomplete="given-name"></div>
+          <div class="field"><label for="b-last">Last name *</label><input id="b-last" name="lastName" type="text" required autocomplete="family-name"></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="b-phone">Phone *</label><input id="b-phone" name="phone" type="tel" required autocomplete="tel"></div>
+          <div class="field"><label for="b-zip">Postcode *</label><input id="b-zip" name="postcode" type="text" required autocomplete="postal-code"></div>
+        </div>
+        <div class="field"><label for="b-mail">Email *</label><input id="b-mail" name="email" type="email" required autocomplete="email"></div>
+        <div class="field"><label for="b-msg">Briefly describe your insulation project *</label><textarea id="b-msg" name="message" rows="3" required></textarea></div>
+        <div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <button class="btn btn--accent" type="submit">Get my free quote <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <p class="form-status" role="status" aria-live="polite" hidden></p>
+        <p class="form-note">Simple request · No obligation</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="col"><span class="brand-name">[YOUR BRAND]</span><span>[COMPANY LEGAL NAME]</span></div>
+    <div class="col">
+      <span>[STREET ADDRESS], [POSTCODE] [TOWN]</span>
+      <a href="tel:+0000000000">[YOUR PHONE]</a>
+      <span>[VAT / REGISTRATION NUMBER]</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/main.js" defer></script>
+</body>
+</html>
