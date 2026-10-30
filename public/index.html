@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Roof Insulation | Free Quote</title>
 <meta name="description" content="Free roof study and insulation by experienced roofers. Request your free, no-obligation quote.">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -55,7 +55,7 @@
     <div class="form-card" id="form">
       <p class="form-kicker">Your project starts here</p>
       <h2 class="form-title">Get your free quote</h2>
-      <form class="quote-form" action="/api/quote" method="post" novalidate>
+      <form class="quote-form" action="api/quote" method="post" novalidate>
         <div class="row">
           <div class="field"><label for="a-first">First name *</label><input id="a-first" name="firstName" type="text" required autocomplete="given-name"></div>
           <div class="field"><label for="a-last">Last name *</label><input id="a-last" name="lastName" type="text" required autocomplete="family-name"></div>
@@ -99,7 +99,7 @@
   <div class="section container">
     <p class="eyebrow">Proof from the job site</p>
     <h2 class="h2">Insulation you can see before it disappears behind the plasterboard.</h2>
-    <!-- To use a real photo, add: style="background-image:url('/images/your-photo.jpg')" and class "has-image" to the figure. -->
+    <!-- To use a real photo, add: style="background-image:url('images/your-photo.jpg')" and class "has-image" to the figure. -->
     <div class="gallery">
       <figure class="shot"><figcaption>[PHOTO: attic before insulation]</figcaption></figure>
       <figure class="shot"><figcaption>[PHOTO: insulation being laid]</figcaption></figure>
@@ -167,7 +167,7 @@
     <div class="form-card" id="form2">
       <p class="form-kicker">Your project starts here</p>
       <h2 class="form-title">Get your free quote</h2>
-      <form class="quote-form" action="/api/quote" method="post" novalidate>
+      <form class="quote-form" action="api/quote" method="post" novalidate>
         <div class="row">
           <div class="field"><label for="b-first">First name *</label><input id="b-first" name="firstName" type="text" required autocomplete="given-name"></div>
           <div class="field"><label for="b-last">Last name *</label><input id="b-last" name="lastName" type="text" required autocomplete="family-name"></div>
@@ -199,6 +199,7 @@
   </div>
 </footer>
 
-<script src="/main.js" defer></script>
+<script src="config.js"></script>
+<script src="main.js" defer></script>
 </body>
 </html>

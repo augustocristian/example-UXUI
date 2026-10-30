@@ -55,3 +55,13 @@ docker run -d -p 80:3000 -v $(pwd)/data:/app/data --env-file .env roof-landing
 npm install --omit=dev
 PORT=3000 npm start      # keep it running with pm2 or systemd, put nginx or Caddy in front for HTTPS
 ```
+
+## GitHub Pages (static frontend)
+
+The `public/` folder is deployed by `.github/workflows/pages.yml` on every push to `main`. All asset paths are relative, so it works under `https://<user>.github.io/example-UXUI/`.
+
+1. In the repo, go to **Settings → Pages → Source** and choose **GitHub Actions**.
+2. Pages has no backend, so `/api/quote` does not exist there. Edit `public/config.js` and set `window.QUOTE_ENDPOINT` to an external form endpoint (for example Formspree, or a Zapier/Make webhook URL).
+3. Push to `main`. The site URL appears in the workflow run.
+
+Running `npm start` locally still uses the built-in `api/quote` endpoint.

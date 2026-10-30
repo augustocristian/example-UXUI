@@ -27,9 +27,9 @@ document.querySelectorAll(".quote-form").forEach((form) => {
     status.hidden = true;
 
     try {
-      const res = await fetch("/api/quote", {
+      const res = await fetch(window.QUOTE_ENDPOINT || "api/quote", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(data),
       });
       const json = await res.json().catch(() => ({}));
